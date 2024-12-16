@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positivos" time="21.512" tests="7" failures="0" errors="0">
+   <testsuite name="Positivos" tests="7" failures="0" errors="0" time="21.512" skipped="0" timestamp="2024-01-23 22:38:50" hostname="OLVATI - DESKTOP-RGFFP9A" id="Test Suites/ML/Positivos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\GitHub\\ProyectoAPI\\Reports\\20240123_223817\\ML\\Positivos\\20240123_223817"/>
+         <property name="logFiles" value="C:\\GitHub\\ProyectoAPI\\Reports\\20240123_223817\\ML\\Positivos\\20240123_223817\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="OLVATI - DESKTOP-RGFFP9A"/>
+         <property name="hostAddress" value="192.168.6.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="7.061" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:38:51 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:38:52 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:38:58 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\0.har
+
+2024-01-23 22:38:58 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:38:58 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:38:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:38:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="9.774" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:38:58 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:38:58 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:39:08 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\1.har
+
+2024-01-23 22:39:08 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:39:08 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:39:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:39:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.637" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:39:08 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:39:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:39:08 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\2.har
+
+2024-01-23 22:39:08 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:39:08 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:39:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:39:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="2.256" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:39:08 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:39:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:39:11 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\3.har
+
+2024-01-23 22:39:11 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:39:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.406" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:39:11 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:39:11 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\4.har
+
+2024-01-23 22:39:11 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:39:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.346" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:39:11 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:39:11 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\5.har
+
+2024-01-23 22:39:11 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:39:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.363" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="PASSED">
+         <system-out><![CDATA[2024-01-23 22:39:11 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience
+
+2024-01-23 22:39:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - 200")): Send request successfully
+
+2024-01-23 22:39:12 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240123_223817\ML\Positivos\20240123_223817\requests\main\6.har
+
+2024-01-23 22:39:12 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-23 22:39:12 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-23 22:39:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-23 22:39:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-23 22:38:50 - [TEST_SUITE][PASSED] - Positivos: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

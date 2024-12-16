@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positivos" time="10.142" tests="5" failures="0" errors="0">
+   <testsuite name="Positivos" tests="5" failures="0" errors="0" time="10.142" skipped="0" timestamp="2024-01-26 00:25:31" hostname="OLVATI - DESKTOP-RGFFP9A" id="Test Suites/ML/Positivos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\GitHub\\ProyectoAPI\\Reports\\20240126_002523\\ML\\Positivos\\20240126_002523"/>
+         <property name="logFiles" value="C:\\GitHub\\ProyectoAPI\\Reports\\20240126_002523\\ML\\Positivos\\20240126_002523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="OLVATI - DESKTOP-RGFFP9A"/>
+         <property name="hostAddress" value="192.168.6.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta" time="4.802" classname="Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta" status="PASSED">
+         <system-out><![CDATA[2024-01-26 00:25:31 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta: Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta
+
+2024-01-26 00:25:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mercado Libre/Positivos/Oauth/Oauth Carrier"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier' successfully
+
+2024-01-26 00:25:32 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier: Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier
+
+2024-01-26 00:25:33 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth/Oauth Carrier -Agencias")): Send request successfully
+
+2024-01-26 00:25:35 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\0.har
+
+2024-01-26 00:25:35 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:35 - [TEST_STEP][PASSED] - Token = getElementPropertyValue(Response, "access_token"): null
+
+2024-01-26 00:25:35 - [TEST_STEP][PASSED] - print(Token): null
+
+2024-01-26 00:25:35 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-26 00:25:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-26 00:25:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-01-26 00:25:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier' successfully
+
+2024-01-26 00:25:35 - [TEST_STEP][PASSED] - Response2 = sendRequest(findTestObject("Desarrollo ML/Agencias/Agencias - 200")): Send request successfully
+
+2024-01-26 00:25:36 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\1.har
+
+2024-01-26 00:25:36 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias = getElementPropertyValue(Response2, "agencies"): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - print(agencias): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response2, 200): Verify response status code successfully
+
+2024-01-26 00:25:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - print(Response2.getResponseText()): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - assert agencias : "El campo 'agencies' no está presente o es nulo.": null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias.each({ java.lang.Object agencia -> ... }): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias.each({ java.lang.Object agency -> ... }): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias.each({ java.lang.Object agency -> ... }): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias.each({ java.lang.Object agency -> ... }): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias.each({ java.lang.Object agency -> ... }): null
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - agencias.each({ java.lang.Object agency -> ... }): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response" time="1.311" classname="Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response" status="PASSED">
+         <system-out><![CDATA[2024-01-26 00:25:36 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response: Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response
+
+2024-01-26 00:25:36 - [TEST_STEP][PASSED] - Response1 = sendRequest(findTestObject("Desarrollo ML/Oauth/Oauth Carrier - authorizations")): Send request successfully
+
+2024-01-26 00:25:37 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\2.har
+
+2024-01-26 00:25:37 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - Token = getElementPropertyValue(Response1, "access_token"): null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - print(Token): null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - Response3 = sendRequest(findTestObject("Desarrollo ML/Cancelar Envios/Cancelación de Envíos", ["base_url":base_url])): Send request successfully
+
+2024-01-26 00:25:37 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\3.har
+
+2024-01-26 00:25:37 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - print(Response3.getResponseText()): null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response3, 200): Verify response status code successfully
+
+2024-01-26 00:25:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - cancelJsonResponse = JsonSlurper().parseText(Response3.getResponseText()): null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - assert status != null : "El campo "status" es mandatorio y no está presente en la respuesta de cancelación.": null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - if (status != "CANCELLED"): null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - if (status == "CANCELLED"): null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - assert tracking_number != null : "El campo "tracking_number" es mandatorio en caso de que "status" sea "CANCELLED" y no está presente en la respuesta de cancelación.": null
+
+2024-01-26 00:25:37 - [TEST_STEP][PASSED] - println("La validación de la respuesta de cancelación fue exitosa."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response" time="1.201" classname="Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response" status="PASSED">
+         <system-out><![CDATA[2024-01-26 00:25:37 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response: Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - Response1 = sendRequest(findTestObject("Desarrollo ML/Oauth/Oauth Carrier - authorizations")): Send request successfully
+
+2024-01-26 00:25:38 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\4.har
+
+2024-01-26 00:25:38 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - Token = getElementPropertyValue(Response1, "access_token"): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - print(Token): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - Response2 = sendRequest(findTestObject("Desarrollo ML/Crear envios/Crear Envios 200", ["base_url":base_url])): Send request successfully
+
+2024-01-26 00:25:38 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\5.har
+
+2024-01-26 00:25:38 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - print(Response2.getResponseText()): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response2, 200): Verify response status code successfully
+
+2024-01-26 00:25:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert Response2 != null : "La respuesta no puede ser nula.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - jsonResponse = JsonSlurper().parseText(Response2.getResponseText()): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert message != null : "El campo "message" es mandatorio y no está presente en la respuesta.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert id != null : "El campo "id" es mandatorio y no está presente en la respuesta.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert status != null : "El campo "status" es mandatorio y no está presente en la respuesta.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - if (status == "FAILED" || status == "ERROR"): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - if (status == "AUTHORIZED"): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert tracking_number != null : "El campo "tracking_number" es mandatorio en caso de autorización exitosa y no está presente en la respuesta.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - if (status == "AUTHORIZED"): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert authorization_information != null : "El nodo "authorization_information" es mandatorio en caso de autorización exitosa y no está presente en la respuesta.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - assert date != null : "El campo "date" dentro de "authorization_information" es mandatorio en caso de autorización exitosa y no está presente en la respuesta.": null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - if (custom_data != null): null
+
+2024-01-26 00:25:38 - [TEST_STEP][PASSED] - println("La validación de la respuesta fue exitosa."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response" time="1.787" classname="Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response" status="PASSED">
+         <system-out><![CDATA[2024-01-26 00:25:38 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response: Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response
+
+2024-01-26 00:25:39 - [TEST_STEP][PASSED] - Response1 = sendRequest(findTestObject("Desarrollo ML/Oauth/Oauth Carrier - tracking-pull")): Send request successfully
+
+2024-01-26 00:25:39 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\6.har
+
+2024-01-26 00:25:40 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - Token = getElementPropertyValue(Response1, "access_token"): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - print(Token): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - Response2 = sendRequest(findTestObject("Desarrollo ML/Pull Tracking/Pull Tracking de Envíos II", ["base_url":base_url])): Send request successfully
+
+2024-01-26 00:25:40 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\7.har
+
+2024-01-26 00:25:40 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - print(Response2.getResponseText()): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response2, 200): Verify response status code successfully
+
+2024-01-26 00:25:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - shipment = getElementPropertyValue(Response2, "shipment"): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert id != null : "El campo 'id' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert tracking_number != null : "El campo 'tracking_number' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert events != null : "El campo 'events' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert code != null : "El campo 'code' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert carrier_code != null : "El campo 'carrier_code' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (payload != null): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert date != null : "El campo 'payload.date' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert reason != null : "El campo 'payload.reason' es obligatorio para código 0114.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert agency_id != null || !(["0201", "0215"].contains(code)) : "El campo 'payload.agency_id' es obligatorio para códigos 0201 y 0215.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (["0260", "0265"].contains(code)): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (location != null): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert country_id != null || code.startsWith("CBT") : "El campo 'payload.location.country_id' es obligatorio para códigos con prefijo 'CBT'.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert facility != null || ["0271", "0273"].contains(code) : "El campo 'payload.location.facility' es obligatorio para códigos 0271 y 0273.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (geolocation != null): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert latitude != null : "El campo 'payload.location.geolocation.latitude' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert longitude != null : "El campo 'payload.location.geolocation.longitude' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (dimensions != null && code == "0260"): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (code == "0265"): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (["0265", "0133"].contains(code)): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (payload != null && proof_of_delivery != null): null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert type != null : "El campo 'payload.proof_of_delivery.receiver_document.type' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - assert number != null : "El campo 'payload.proof_of_delivery.receiver_document.number' es obligatorio.": null
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - if (payload != null && driver != null && code == "0133"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier" time="0.505" classname="Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier" status="PASSED">
+         <system-out><![CDATA[2024-01-26 00:25:40 - [TEST_CASE][PASSED] - Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier: Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier
+
+2024-01-26 00:25:40 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth/Oauth Carrier -Agencias")): Send request successfully
+
+2024-01-26 00:25:41 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240126_002523\ML\Positivos\20240126_002523\requests\main\8.har
+
+2024-01-26 00:25:41 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-26 00:25:41 - [TEST_STEP][PASSED] - Token = getElementPropertyValue(Response, "access_token"): null
+
+2024-01-26 00:25:41 - [TEST_STEP][PASSED] - print(Token): null
+
+2024-01-26 00:25:41 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-26 00:25:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2024-01-26 00:25:41 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-26 00:25:31 - [TEST_SUITE][PASSED] - Positivos: Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

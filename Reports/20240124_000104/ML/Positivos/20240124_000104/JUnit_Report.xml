@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positivos" time="8.581" tests="11" failures="0" errors="11">
+   <testsuite name="Positivos" tests="11" failures="0" errors="11" time="8.581" skipped="0" timestamp="2024-01-24 00:01:11" hostname="OLVATI - DESKTOP-RGFFP9A" id="Test Suites/ML/Positivos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\GitHub\\ProyectoAPI\\Reports\\20240124_000104\\ML\\Positivos\\20240124_000104"/>
+         <property name="logFiles" value="C:\\GitHub\\ProyectoAPI\\Reports\\20240124_000104\\ML\\Positivos\\20240124_000104\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="OLVATI - DESKTOP-RGFFP9A"/>
+         <property name="hostAddress" value="192.168.6.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="3.608" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:11 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:12 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:15 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\0.har
+
+2024-01-24 00:01:15 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:15 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:15 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:15 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:11 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.493" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:15 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:15 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:15 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\1.har
+
+2024-01-24 00:01:15 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:15 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:15 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:15 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:15 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.342" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:16 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:16 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\2.har
+
+2024-01-24 00:01:16 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:16 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:16 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:16 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:16 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.328" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:16 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:16 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\3.har
+
+2024-01-24 00:01:16 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:16 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:16 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:16 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:16 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.344" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:16 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:17 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\4.har
+
+2024-01-24 00:01:17 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:17 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:17 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:17 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:16 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.395" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:17 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:17 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\5.har
+
+2024-01-24 00:01:17 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:17 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:17 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:17 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:17 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.388" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:17 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:18 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\6.har
+
+2024-01-24 00:01:18 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:18 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:18 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:18 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:17 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.404" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:18 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:18 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\7.har
+
+2024-01-24 00:01:18 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:18 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:18 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:18 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:18 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.309" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:18 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:18 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\8.har
+
+2024-01-24 00:01:18 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:18 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:18 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:18 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:18 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.359" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:18 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:19 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\9.har
+
+2024-01-24 00:01:19 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:19 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:19 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:19 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:18 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" time="0.475" classname="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+"/>
+         <system-out><![CDATA[2024-01-24 00:01:19 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:19 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Desarrollo ML/Oauth Carrier - iteración", ["audience":userglobalcorrecto])): Send request successfully
+
+2024-01-24 00:01:19 - [MESSAGE][INFO] - HAR: C:\GitHub\ProyectoAPI\Reports\20240124_000104\ML\Positivos\20240124_000104\requests\main\10.har
+
+2024-01-24 00:01:19 - [MESSAGE][PASSED] - Send request successfully
+
+2024-01-24 00:01:19 - [TEST_STEP][PASSED] - print(Response.getResponseText()): null
+
+2024-01-24 00:01:19 - [TEST_STEP][ERROR] - verifyResponseStatusCode(Response, response): Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)
+
+
+2024-01-24 00:01:19 - [MESSAGE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-01-24 00:01:19 - [TEST_CASE][ERROR] - Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 400]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-24 00:01:11 - [TEST_SUITE][ERROR] - Positivos: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-01-24 00:01:11 - [TEST_SUITE][ERROR] - Positivos: Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject, java.lang.String) values: [400 406 bytes, 200]
+Possible solutions: verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int), verifyResponseStatusCode(com.kms.katalon.core.testobject.ResponseObject, int, com.kms.katalon.core.model.FailureHandling)
+	at Oauth Carrier - iteraciones audience.run(Oauth Carrier - iteraciones audience:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706072464262.run(TempTestSuite1706072464262.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

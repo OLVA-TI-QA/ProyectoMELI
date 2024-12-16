@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positivos,,,,2024-01-23 23:59:26,2024-01-23 23:59:35,"8,691s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:27,2024-01-23 23:59:31,"3,886s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:27,2024-01-23 23:59:30,"2,886s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:30,2024-01-23 23:59:30,"0,002s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:30,2024-01-23 23:59:30,"0,070s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,391s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,328s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,016s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,357s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,309s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:31,2024-01-23 23:59:31,"0,000s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:31,2024-01-23 23:59:32,"0,422s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:31,2024-01-23 23:59:32,"0,359s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:32,2024-01-23 23:59:32,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:32,2024-01-23 23:59:32,"0,017s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:32,2024-01-23 23:59:32,"0,362s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:32,2024-01-23 23:59:32,"0,296s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:32,2024-01-23 23:59:32,"0,001s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:32,2024-01-23 23:59:32,"0,008s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:32,2024-01-23 23:59:33,"0,391s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:32,2024-01-23 23:59:33,"0,322s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:33,2024-01-23 23:59:33,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:33,2024-01-23 23:59:33,"0,010s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:33,2024-01-23 23:59:33,"0,378s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:33,2024-01-23 23:59:33,"0,316s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:33,2024-01-23 23:59:33,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:33,2024-01-23 23:59:33,"0,015s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:33,2024-01-23 23:59:34,"0,377s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:33,2024-01-23 23:59:34,"0,298s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,016s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,366s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,303s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,000s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,341s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,297s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:34,2024-01-23 23:59:34,"0,012s",ERROR
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-23 23:59:34,2024-01-23 23:59:35,"0,364s",ERROR
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-23 23:59:34,2024-01-23 23:59:35,"0,317s",PASSED
+print(Response.getResponseText()),,,,2024-01-23 23:59:35,2024-01-23 23:59:35,"0,000s",PASSED
+"verifyResponseStatusCode(Response, response)",,,,2024-01-23 23:59:35,2024-01-23 23:59:35,"0,000s",ERROR

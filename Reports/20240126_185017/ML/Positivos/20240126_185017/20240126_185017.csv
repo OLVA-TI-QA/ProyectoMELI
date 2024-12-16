@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positivos,,,,2024-01-26 18:50:28,2024-01-26 18:50:46,"18,078s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta,,,,2024-01-26 18:50:29,2024-01-26 18:50:38,"9,382s",PASSED
+"callTestCase(findTestCase(""Mercado Libre/Positivos/Oauth/Oauth Carrier""), [:], STOP_ON_FAILURE)",,,,2024-01-26 18:50:29,2024-01-26 18:50:35,"5,725s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Agencias/Agencias - 200""))",,,,2024-01-26 18:50:35,2024-01-26 18:50:38,"2,818s",PASSED
+"agencias = getElementPropertyValue(Response2, ""agencies"")",,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,025s",PASSED
+print(agencias),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,017s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+"assert agencias : ""El campo 'agencies' no está presente o es nulo.""",,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+agencias.each({ java.lang.Object agencia -> ... }),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+agencias.each({ java.lang.Object agency -> ... }),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,015s",PASSED
+agencias.each({ java.lang.Object agency -> ... }),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+agencias.each({ java.lang.Object agency -> ... }),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+agencias.each({ java.lang.Object agency -> ... }),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,000s",PASSED
+agencias.each({ java.lang.Object agency -> ... }),,,,2024-01-26 18:50:38,2024-01-26 18:50:38,"0,016s",PASSED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response,,,,2024-01-26 18:50:38,2024-01-26 18:50:40,"1,731s",PASSED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - authorizations""))",,,,2024-01-26 18:50:38,2024-01-26 18:50:39,"0,420s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 18:50:39,2024-01-26 18:50:39,"0,032s",PASSED
+print(Token),,,,2024-01-26 18:50:39,2024-01-26 18:50:39,"0,000s",PASSED
+"Response3 = sendRequest(findTestObject(""Desarrollo ML/Cancelar Envios/Cancelación de Envíos"", [""base_url"":base_url]))",,,,2024-01-26 18:50:39,2024-01-26 18:50:40,"0,829s",PASSED
+print(Response3.getResponseText()),,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,001s",PASSED
+"verifyResponseStatusCode(Response3, 200)",,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,003s",PASSED
+cancelJsonResponse = JsonSlurper().parseText(Response3.getResponseText()),,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,000s",PASSED
+"assert status != null : ""El campo ""status"" es mandatorio y no está presente en la respuesta de cancelación.""",,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,000s",PASSED
+"if (status != ""CANCELLED"")",,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,000s",PASSED
+"if (status == ""CANCELLED"")",,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,001s",PASSED
+"println(""La validación de la respuesta de cancelación fue exitosa."")",,,,2024-01-26 18:50:40,2024-01-26 18:50:40,"0,002s",PASSED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response,,,,2024-01-26 18:50:40,2024-01-26 18:50:41,"1,400s",FAILED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - authorizations""))",,,,2024-01-26 18:50:40,2024-01-26 18:50:41,"0,424s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 18:50:41,2024-01-26 18:50:41,"0,016s",PASSED
+print(Token),,,,2024-01-26 18:50:41,2024-01-26 18:50:41,"0,000s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Crear envios/Crear Envios 200"", [""base_url"":base_url]))",,,,2024-01-26 18:50:41,2024-01-26 18:50:41,"0,512s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 18:50:41,2024-01-26 18:50:41,"0,000s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 18:50:41,2024-01-26 18:50:41,"0,018s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response,,,,2024-01-26 18:50:41,2024-01-26 18:50:45,"3,769s",PASSED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - tracking-pull""))",,,,2024-01-26 18:50:42,2024-01-26 18:50:42,"0,432s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 18:50:42,2024-01-26 18:50:42,"0,023s",PASSED
+print(Token),,,,2024-01-26 18:50:42,2024-01-26 18:50:42,"0,000s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Pull Tracking/Pull Tracking de Envíos II"", [""base_url"":base_url]))",,,,2024-01-26 18:50:42,2024-01-26 18:50:45,"2,786s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,003s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,003s",PASSED
+"shipment = getElementPropertyValue(Response2, ""shipment"")",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,026s",PASSED
+"assert id != null : ""El campo 'id' es obligatorio.""",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,000s",PASSED
+"assert tracking_number != null : ""El campo 'tracking_number' es obligatorio.""",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,001s",PASSED
+"assert events != null : ""El campo 'events' es obligatorio.""",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,001s",PASSED
+"assert code != null : ""El campo 'code' es obligatorio.""",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,000s",PASSED
+"assert carrier_code != null : ""El campo 'carrier_code' es obligatorio.""",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,000s",PASSED
+if (payload != null),,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,016s",PASSED
+if (payload != null && proof_of_delivery != null),,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,002s",PASSED
+"if (payload != null && driver != null && code == ""0133"")",,,,2024-01-26 18:50:45,2024-01-26 18:50:45,"0,001s",PASSED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier,,,,2024-01-26 18:50:45,2024-01-26 18:50:46,"1,079s",PASSED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier -Agencias""))",,,,2024-01-26 18:50:45,2024-01-26 18:50:46,"1,024s",PASSED
+"Token = getElementPropertyValue(Response, ""access_token"")",,,,2024-01-26 18:50:46,2024-01-26 18:50:46,"0,015s",PASSED
+print(Token),,,,2024-01-26 18:50:46,2024-01-26 18:50:46,"0,016s",PASSED
+print(Response.getResponseText()),,,,2024-01-26 18:50:46,2024-01-26 18:50:46,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2024-01-26 18:50:46,2024-01-26 18:50:46,"0,000s",PASSED

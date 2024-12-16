@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positivos,,,,2024-01-26 18:26:26,2024-01-26 18:26:38,"11,173s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta,,,,2024-01-26 18:26:27,2024-01-26 18:26:32,"5,612s",FAILED
+"callTestCase(findTestCase(""Mercado Libre/Positivos/Oauth/Oauth Carrier""), [:], STOP_ON_FAILURE)",,,,2024-01-26 18:26:27,2024-01-26 18:26:32,"4,660s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Agencias/Agencias - 200""))",,,,2024-01-26 18:26:32,2024-01-26 18:26:32,"0,370s",PASSED
+"agencias = getElementPropertyValue(Response2, ""agencies"")",,,,2024-01-26 18:26:32,2024-01-26 18:26:32,"0,016s",PASSED
+print(agencias),,,,2024-01-26 18:26:32,2024-01-26 18:26:32,"0,016s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 18:26:32,2024-01-26 18:26:32,"0,023s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response,,,,2024-01-26 18:26:32,2024-01-26 18:26:34,"1,554s",FAILED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - authorizations""))",,,,2024-01-26 18:26:33,2024-01-26 18:26:33,"0,540s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 18:26:33,2024-01-26 18:26:33,"0,030s",PASSED
+print(Token),,,,2024-01-26 18:26:33,2024-01-26 18:26:33,"0,000s",PASSED
+"Response3 = sendRequest(findTestObject(""Desarrollo ML/Cancelar Envios/Cancelación de Envíos"", [""base_url"":base_url]))",,,,2024-01-26 18:26:33,2024-01-26 18:26:34,"0,506s",PASSED
+print(Response3.getResponseText()),,,,2024-01-26 18:26:34,2024-01-26 18:26:34,"0,000s",PASSED
+"verifyResponseStatusCode(Response3, 200)",,,,2024-01-26 18:26:34,2024-01-26 18:26:34,"0,010s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response,,,,2024-01-26 18:26:34,2024-01-26 18:26:35,"1,403s",FAILED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - authorizations""))",,,,2024-01-26 18:26:34,2024-01-26 18:26:35,"0,440s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 18:26:35,2024-01-26 18:26:35,"0,022s",PASSED
+print(Token),,,,2024-01-26 18:26:35,2024-01-26 18:26:35,"0,001s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Crear envios/Crear Envios 200"", [""base_url"":base_url]))",,,,2024-01-26 18:26:35,2024-01-26 18:26:35,"0,496s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 18:26:35,2024-01-26 18:26:35,"0,000s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 18:26:35,2024-01-26 18:26:35,"0,009s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response,,,,2024-01-26 18:26:35,2024-01-26 18:26:37,"1,593s",FAILED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - tracking-pull""))",,,,2024-01-26 18:26:36,2024-01-26 18:26:37,"0,652s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,016s",PASSED
+print(Token),,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,000s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Pull Tracking/Pull Tracking de Envíos II"", [""base_url"":base_url]))",,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,431s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,000s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,010s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier,,,,2024-01-26 18:26:37,2024-01-26 18:26:38,"0,503s",PASSED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier -Agencias""))",,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,439s",PASSED
+"Token = getElementPropertyValue(Response, ""access_token"")",,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,028s",PASSED
+print(Token),,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,001s",PASSED
+print(Response.getResponseText()),,,,2024-01-26 18:26:37,2024-01-26 18:26:37,"0,001s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2024-01-26 18:26:37,2024-01-26 18:26:38,"0,002s",PASSED

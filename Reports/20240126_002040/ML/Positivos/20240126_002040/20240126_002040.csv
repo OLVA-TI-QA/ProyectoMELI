@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positivos,,,,2024-01-26 00:20:47,2024-01-26 00:20:57,"10,330s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta,,,,2024-01-26 00:20:47,2024-01-26 00:20:51,"4,506s",FAILED
+"callTestCase(findTestCase(""Mercado Libre/Positivos/Oauth/Oauth Carrier""), [:], STOP_ON_FAILURE)",,,,2024-01-26 00:20:47,2024-01-26 00:20:51,"3,654s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Agencias/Agencias - 200""))",,,,2024-01-26 00:20:51,2024-01-26 00:20:51,"0,361s",PASSED
+"agencias = getElementPropertyValue(Response2, ""agencies"")",,,,2024-01-26 00:20:51,2024-01-26 00:20:51,"0,015s",PASSED
+print(agencias),,,,2024-01-26 00:20:51,2024-01-26 00:20:51,"0,014s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 00:20:51,2024-01-26 00:20:51,"0,016s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response,,,,2024-01-26 00:20:52,2024-01-26 00:20:53,"1,281s",PASSED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - authorizations""))",,,,2024-01-26 00:20:52,2024-01-26 00:20:52,"0,420s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 00:20:52,2024-01-26 00:20:52,"0,025s",PASSED
+print(Token),,,,2024-01-26 00:20:52,2024-01-26 00:20:52,"0,000s",PASSED
+"Response3 = sendRequest(findTestObject(""Desarrollo ML/Cancelar Envios/Cancelación de Envíos"", [""base_url"":base_url]))",,,,2024-01-26 00:20:52,2024-01-26 00:20:53,"0,392s",PASSED
+print(Response3.getResponseText()),,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+"verifyResponseStatusCode(Response3, 200)",,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+cancelJsonResponse = JsonSlurper().parseText(Response3.getResponseText()),,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+"assert status != null : ""El campo ""status"" es mandatorio y no está presente en la respuesta de cancelación.""",,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+"if (status != ""CANCELLED"")",,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+"if (status == ""CANCELLED"")",,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+"println(""La validación de la respuesta de cancelación fue exitosa."")",,,,2024-01-26 00:20:53,2024-01-26 00:20:53,"0,000s",PASSED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response,,,,2024-01-26 00:20:53,2024-01-26 00:20:54,"1,127s",PASSED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - authorizations""))",,,,2024-01-26 00:20:53,2024-01-26 00:20:54,"0,405s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,031s",PASSED
+print(Token),,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Crear envios/Crear Envios 200"", [""base_url"":base_url]))",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,283s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,015s",PASSED
+"assert Response2 != null : ""La respuesta no puede ser nula.""",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+jsonResponse = JsonSlurper().parseText(Response2.getResponseText()),,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"assert message != null : ""El campo ""message"" es mandatorio y no está presente en la respuesta.""",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"assert id != null : ""El campo ""id"" es mandatorio y no está presente en la respuesta.""",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"assert status != null : ""El campo ""status"" es mandatorio y no está presente en la respuesta.""",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"if (status == ""FAILED"" || status == ""ERROR"")",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"if (status == ""AUTHORIZED"")",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"if (status == ""AUTHORIZED"")",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+"println(""La validación de la respuesta fue exitosa."")",,,,2024-01-26 00:20:54,2024-01-26 00:20:54,"0,000s",PASSED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier - iteraciones audience,,,,2024-01-26 00:20:54,2024-01-26 00:20:55,"0,846s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-26 00:20:54,2024-01-26 00:20:55,"0,431s",PASSED
+print(Response.getResponseText()),,,,2024-01-26 00:20:55,2024-01-26 00:20:55,"0,001s",PASSED
+print(Response),,,,2024-01-26 00:20:55,2024-01-26 00:20:55,"0,001s",PASSED
+"verifyResponseStatusCode(Response, 200, STOP_ON_FAILURE)",,,,2024-01-26 00:20:55,2024-01-26 00:20:55,"0,007s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response,,,,2024-01-26 00:20:55,2024-01-26 00:20:57,"2,046s",PASSED
+"Response1 = sendRequest(findTestObject(""Desarrollo ML/Oauth/Oauth Carrier - tracking-pull""))",,,,2024-01-26 00:20:55,2024-01-26 00:20:56,"0,435s",PASSED
+"Token = getElementPropertyValue(Response1, ""access_token"")",,,,2024-01-26 00:20:56,2024-01-26 00:20:56,"0,016s",PASSED
+print(Token),,,,2024-01-26 00:20:56,2024-01-26 00:20:56,"0,000s",PASSED
+"Response2 = sendRequest(findTestObject(""Desarrollo ML/Pull Tracking/Pull Tracking de Envíos II"", [""base_url"":base_url]))",,,,2024-01-26 00:20:56,2024-01-26 00:20:57,"1,028s",PASSED
+print(Response2.getResponseText()),,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+"verifyResponseStatusCode(Response2, 200)",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+"shipment = getElementPropertyValue(Response2, ""shipment"")",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,031s",PASSED
+"assert id != null : ""El campo 'id' es obligatorio.""",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+"assert tracking_number != null : ""El campo 'tracking_number' es obligatorio.""",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+"assert events != null : ""El campo 'events' es obligatorio.""",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+"assert code != null : ""El campo 'code' es obligatorio.""",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+"assert carrier_code != null : ""El campo 'carrier_code' es obligatorio.""",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+if (payload != null),,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED
+if (payload != null && proof_of_delivery != null),,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,016s",PASSED
+"if (payload != null && driver != null && code == ""0133"")",,,,2024-01-26 00:20:57,2024-01-26 00:20:57,"0,000s",PASSED

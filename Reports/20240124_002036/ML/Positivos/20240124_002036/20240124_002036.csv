@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positivos,,,,2024-01-24 00:20:43,2024-01-24 00:20:51,"8,390s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:44,2024-01-24 00:20:47,"3,582s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:44,2024-01-24 00:20:47,"2,596s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:47,2024-01-24 00:20:47,"0,013s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:47,2024-01-24 00:20:47,"0,028s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:47,2024-01-24 00:20:47,"0,072s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:47,2024-01-24 00:20:47,"0,021s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:47,2024-01-24 00:20:48,"0,409s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:47,2024-01-24 00:20:48,"0,347s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,015s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,016s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,341s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,295s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,015s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,352s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,285s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,002s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,016s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:48,2024-01-24 00:20:48,"0,000s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:48,2024-01-24 00:20:49,"0,359s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:48,2024-01-24 00:20:49,"0,297s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,000s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,016s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,015s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,390s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,335s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,003s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,015s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:49,2024-01-24 00:20:49,"0,003s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:49,2024-01-24 00:20:50,"0,348s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:49,2024-01-24 00:20:50,"0,291s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,001s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,004s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,020s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,004s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,377s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,306s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,000s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,023s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:50,2024-01-24 00:20:50,"0,000s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:50,2024-01-24 00:20:51,"0,433s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:50,2024-01-24 00:20:51,"0,367s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,000s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,016s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,015s",FAILED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,381s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,311s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,006s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,001s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,000s",PASSED
+,,,,,,,
+Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience,,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,360s",FAILED
+"Response = sendRequest(findTestObject(""Desarrollo ML/Oauth Carrier - iteración"", [""audience"":userglobalcorrecto]))",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,298s",PASSED
+print(Response.getResponseText()),,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,000s",PASSED
+"verifyResponseStatusCode(Response, 200, CONTINUE_ON_FAILURE)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,016s",FAILED
+"Body = getElementPropertyValue(Response, body1)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,015s",PASSED
+"verifyEqual(Body, body2)",,,,2024-01-24 00:20:51,2024-01-24 00:20:51,"0,000s",PASSED
